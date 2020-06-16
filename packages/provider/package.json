@@ -1,0 +1,19 @@
+{
+  "name": "provider",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "ts-engine build --node-app",
+    "lint": "ts-engine lint",
+    "start": "ts-engine start",
+    "test": "ts-engine test",
+    "typecheck": "ts-engine typecheck"
+  },
+  "devDependencies": {
+    "@ts-engine/cli": "^1.7.1"
+  },
+  "dependencies": {
+    "@pact-foundation/pact": "^9.11.0",
+    "express": "^4.17.1"
+  }
+}

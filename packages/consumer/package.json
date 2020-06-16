@@ -1,0 +1,23 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "ts-engine build --node-app",
+    "lint": "ts-engine lint",
+    "publish-pacts": "node ./scripts/publish-pacts.js",
+    "start": "ts-engine start",
+    "test": "ts-engine test",
+    "typecheck": "ts-engine typecheck"
+  },
+  "devDependencies": {
+    "@pact-foundation/pact": "^9.11.0",
+    "@ts-engine/cli": "^1.7.1",
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1",
+    "jest-pact": "^0.5.4"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
